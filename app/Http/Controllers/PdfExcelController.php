@@ -94,10 +94,10 @@ class PdfExcelController extends Controller
         ];
 
         // Génération des QR Codes pour chaque œuvre
-        $baseUrl = "http://127.0.0.1:8000/oeuvre";
+        $baseUrl = " https://6d83f6ca3e3e4cca99b70f23daa447d6-52851054f268497e8936cd731.fly.dev/qr?code=";
 
         foreach ($oeuvres as &$oeuvre) {
-            $qrLink = $baseUrl . '/' . $oeuvre['qr_code'];
+            $qrLink = $baseUrl . $oeuvre['qr_code'];
             $oeuvre['qr_link'] = $qrLink;
 
             $oeuvre['qr_code_image'] = base64_encode(
