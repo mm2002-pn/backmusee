@@ -1,0 +1,19 @@
+.page-pretitle {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #95aac9;
+}
+
+.page-title {
+  font-size: 23px;
+  font-weight: 600;
+  color: #444444;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.page-category {
+  color: #444444;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}

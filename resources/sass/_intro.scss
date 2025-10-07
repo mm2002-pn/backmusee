@@ -1,0 +1,48 @@
+* {
+  @for $i from 1 through 5 {
+    > .intro-x:nth-child(#{$i}),
+    > .-intro-x:nth-child(#{$i}),
+    > .intro-y:nth-child(#{$i}),
+    > .-intro-y:nth-child(#{$i}) {
+      z-index: #{5 - $i};
+      opacity: 0;
+      position: relative;
+      will-change: transform, opacity; // Optimise les performances
+      animation: 0.4s ease-in-out forwards;
+      animation-delay: #{$i * 0.1}s;
+    }
+
+    // Directions spécifiques
+    > .intro-x:nth-child(#{$i}) {
+      transform: translateX(50px);
+      animation-name: intro-x-animation;
+    }
+    > .-intro-x:nth-child(#{$i}) {
+      transform: translateX(-50px);
+      animation-name: intro-x-animation;
+    }
+    > .intro-y:nth-child(#{$i}) {
+      transform: translateY(50px);
+      animation-name: intro-y-animation;
+    }
+    > .-intro-y:nth-child(#{$i}) {
+      transform: translateY(-50px);
+      animation-name: intro-y-animation;
+    }
+  }
+}
+
+// Animations keyframes
+@keyframes intro-x-animation {
+  to {
+    opacity: 1; // Remplace @apply opacity-100
+    transform: translateX(0);
+  }
+}
+
+@keyframes intro-y-animation {
+  to {
+    opacity: 1; // Remplace @apply opacity-100
+    transform: translateY(0);
+  }
+}

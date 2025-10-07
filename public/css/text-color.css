@@ -1,0 +1,77 @@
+
+.text-primary,
+.text-primary a {
+  color: var(--primary-color) !important;
+}
+.text-primary:hover,
+.text-primary a:hover {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary,
+.text-secondary a {
+  color: var(--secondary-color) !important;
+}
+.text-secondary:hover,
+.text-secondary a:hover {
+  color: var(--secondary-color) !important;
+}
+
+.text-info,
+.text-info a {
+  color: var(--info-color) !important;
+}
+.text-info:hover,
+.text-info a:hover {
+  color: var(--info-color) !important;
+}
+
+.text-success,
+.text-success a {
+  color: var(--success-color) !important;
+}
+.text-success:hover,
+.text-success a:hover {
+  color: var(--success-color) !important;
+}
+
+.text-warning,
+.text-warning a {
+  color: var(--warning-color) !important;
+}
+.text-warning:hover,
+.text-warning a:hover {
+  color: var(--warning-color) !important;
+}
+
+.text-danger,
+.text-danger a {
+  color: var(--danger-color) !important;
+}
+.text-danger:hover,
+.text-danger a:hover {
+  color: var(--danger-color) !important;
+}
+
+label {
+  color: var(--gray-color) !important;
+  font-size: 14px !important;
+}
+
+.text-small {
+  font-size: 11px;
+}
+
+.metric-value {
+  margin-bottom: 5px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.metric-label {
+  font-size: 0.975rem;
+  font-weight: 500;
+  color: var(--gray-color);
+  white-space: nowrap;
+  margin-bottom: 0;
+}

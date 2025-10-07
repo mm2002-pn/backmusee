@@ -1,0 +1,57 @@
+/* Forms */
+
+.form-group2 {
+    margin-bottom: 1.5rem;
+  }
+  .input-group-append,
+  .input-group-prepend {
+    color: black;
+    width: auto;
+    border: none;
+  
+    .input-group-text {
+      border-color: #0b6158;
+    //   padding: $input-padding-y .75rem;
+      color: black;
+    }
+  }
+  .form-control {
+    border: 1px solid #0b6158;
+    font-weight: 400;
+    font-size: 22px;
+    border-radius: 4px;
+  }
+  
+  select {
+    &.form-control {
+      padding: .4375rem .75rem;
+      border: 0;
+      outline: 1px solid #0b6158;
+      color: black;
+      &:focus {
+        outline: 1px solid #0b6158;
+      }
+    
+    }
+  }
+  .form-group2 {
+    label {
+      font-size: 22px;
+      line-height: 1.4rem;
+      vertical-align: top;
+      margin-bottom: .5rem;
+    }
+    &.has-danger {
+      .form-control {
+        border-color: red;
+      }
+    }
+    .file-upload-default {
+      visibility: hidden;
+      position: absolute;
+    }
+    .file-upload-info {
+      background: transparent;
+    }
+  }
+  

@@ -1,0 +1,77 @@
+/* pagination */
+/* Pagination Container */
+ul.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* Pagination Items */
+ul.pagination li {
+  margin: 0 2px;
+  font-size: 16px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+/* Pagination Links */
+ul.pagination li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: var(--theme-principal-color);
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  border: 1px solid #e9ecef;
+}
+
+/* Hover State */
+ul.pagination li a:hover {
+  background-color: var(--theme-principal-color);
+  color: #ffffff;
+  transform: scale(1.1);
+  border: 1px solid #e9ecef;
+}
+
+/* Active Page */
+ul.pagination li.pagination-page.ng-scope.active a {
+  background-color: var(--theme-secondaire-color);
+  color: #ffffff;
+  font-weight: bold;
+  border: 1px solid var(--theme-principal-color);
+}
+
+/* Previous & Next Buttons */
+ul.pagination li.pagination-prev a,
+ul.pagination li.pagination-next a {
+  background-color: #f8f9fa;
+  color: #000;
+  font-size: 18px;
+  width: auto;
+  padding: 0 15px;
+  border-radius: 20px;
+}
+
+/* Disabled State */
+ul.pagination li.disabled a {
+  background-color: #e9ecef;
+  color: #adb5bd;
+  pointer-events: none;
+}
+
+/* First & Last Buttons */
+ul.pagination li.pagination-first a,
+ul.pagination li.pagination-last a {
+  font-size: 18px;
+  padding: 0 15px;
+  border-radius: 20px;
+}

@@ -1,0 +1,108 @@
+:root {
+  --theme-principal-color: #ff7502;
+  --theme-secondaire-color: #ffba81;
+  --theme-terciaire-color: #CFFFE3;
+  --secondary-color: #F4F6F9;
+  --gray-color: #EAEBED;
+  --gray: #6F6E79;
+
+  --warning-color: #F8B84A;
+  --danger-color: #E8523E;
+  --primary-color: #6672FB;
+
+
+  --success-color: #56c224;
+  --info-color: #17a2b8;
+
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --white-color: #fff;
+  --black-color: #000;
+  --grey-color: #f2f2f2;
+  --ligth-green-color: #1c870933;
+  --gray-dark-color: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --line-height-base: 1.5;
+  --border-radius: 0.25rem;
+  --transition: all 0.3s ease;
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  --container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+  --grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+  --grid-gutter-width: 30px;
+  --grid-columns: 12;
+  --grid-column-gap: 30px;
+  --grid-row-gap: 15px;
+  --grid-container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+  --grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+}
+
+
+.bg-tertiary {
+  background: var(--theme-terciaire-color) !important;
+}
+
+.bg-theme-gradient {
+  background: linear-gradient(180deg, #ff7502 0%, #ffba81 100%);
+  color: white !important;
+}
+
+.bg-gray {
+  background-color: var(--gray) !important;
+}
+
+.bg-theme {
+  background: var(--theme-principal-color);
+}
+
+.border-theme {
+  border: 1px solid var(--theme-principal-color) !important;
+}
+
+.theme-color {
+  color: var(--theme-principal-color);
+}
+
+.bg-theme-danger {
+  background: var(--danger-color);
+}
+
+.bg-theme-secondary-grey {
+  background: var(--secondary-color);
+}
+
+.bg-theme-primary {
+  background: var(--primary-color);
+}
+
+.bg-theme-warning {
+  background: var(--warning-color);
+}
+
+.stat-box {
+  background: var(--secondary-color);
+  font-weight: 500;
+}
+
+.stat-count {
+  background: var(--gray-color);
+  font-weight: bold;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.icon-wrapper {
+  background: rgba(255, 255, 255, 0.336);
+  display: inline-block;
+  padding: 6px;
+  border-radius: 8px;
+}

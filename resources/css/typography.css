@@ -1,0 +1,133 @@
+body,
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.navbar,
+.brand,
+.btn-simple,
+.alert,
+a,
+.td-name,
+td,
+button.close {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {}
+
+body,
+html {
+  font-size: 14px;
+  color: #2a2f5b;
+}
+
+a {
+  color: black;
+  text-decoration: none !important;
+}
+
+a:hover,
+a:focus {
+  color: black;
+}
+
+h1,
+.h1 {
+  font-size: 2.15rem;
+}
+
+h2,
+.h2 {
+  font-size: 1.85rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.64rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.48rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+h6,
+.h6 {
+  font-size: 1.07rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.07rem;
+  line-height: 1.82;
+  margin-bottom: 1rem;
+  word-break: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  line-height: 1.5;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a {
+  color: inherit;
+}
+
+small,
+.small {
+  font-size: 13px;
+}
+
+b,
+.b,
+strong,
+.strong {
+  font-weight: 600;
+}
+
+
+
+label {
+  font-weight: normal;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: black !important;
+}

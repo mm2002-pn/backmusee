@@ -1,0 +1,24 @@
+.card-header.card-custom {
+  background-color: var(--theme-secondaire-color) !important;
+}
+
+.nav-item .nav-link {
+  color: black !important;
+  border: none !important;
+  border-radius: 20px !important;
+}
+.nav-item {
+  margin-left: 10px !important;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: white !important;
+  background-color: var(--theme-principal-color) !important;
+  border: none !important;
+  border-radius: 20px !important;
+}
+.nav-tabs .nav-item .nav-link:hover {
+  background-color: var(--theme-secondaire-color) !important;
+  border: none !important;
+  box-shadow: none !important;
+}

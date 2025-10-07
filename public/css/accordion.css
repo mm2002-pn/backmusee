@@ -1,0 +1,95 @@
+/*     Accordion     */
+.accordion .card {
+  border-radius: 10px !important;
+  background: #f7f7f7 !important;
+  color: #2a2f5b !important;
+  border: 0;
+  box-shadow: none;
+}
+.accordion .card .span-icon {
+  font-size: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.accordion .card > .card-header {
+  border: 0px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0 !important;
+}
+.accordion .card > .card-header > .span-mode {
+  margin-left: auto;
+}
+.accordion .card > .card-header > .span-mode:before {
+  content: "\f068" !important;
+  font-family: "Font Awesome 5 Solid";
+  font-weight: 900;
+  font-size: 16px;
+}
+.accordion .card > .card-header.collapsed > .span-mode:before {
+  content: "\f067" !important;
+}
+.accordion .card .card-body {
+  border-top: 1px solid #ebebeb;
+  padding: 30px;
+}
+.accordion.accordion-black .card .card-header,
+.accordion.accordion-black .card .card-header .btn-link,
+.accordion.accordion-primary .card .card-header,
+.accordion.accordion-primary .card .card-header .btn-link,
+.accordion.accordion-secondary .card .card-header,
+.accordion.accordion-secondary .card .card-header .btn-link,
+.accordion.accordion-info .card .card-header,
+.accordion.accordion-info .card .card-header .btn-link,
+.accordion.accordion-success .card .card-header,
+.accordion.accordion-success .card .card-header .btn-link,
+.accordion.accordion-warning .card .card-header,
+.accordion.accordion-warning .card .card-header .btn-link,
+.accordion.accordion-danger .card .card-header,
+.accordion.accordion-danger .card .card-header .btn-link {
+  font-size: 1rem;
+}
+.accordion.accordion-black .card .card-header {
+  color: #1a2035;
+}
+.accordion.accordion-black .card .card-header .btn-link {
+  color: #1a2035 !important;
+}
+.accordion.accordion-primary .card .card-header {
+  color: #1572e8;
+}
+.accordion.accordion-primary .card .card-header .btn-link {
+  color: #1572e8 !important;
+}
+.accordion.accordion-secondary .card .card-header {
+  color: #6861ce;
+}
+.accordion.accordion-secondary .card .card-header .btn-link {
+  color: #6861ce !important;
+}
+.accordion.accordion-info .card .card-header {
+  color: #48abf7;
+}
+.accordion.accordion-info .card .card-header .btn-link {
+  color: #48abf7 !important;
+}
+.accordion.accordion-success .card .card-header {
+  color: #31ce36;
+}
+.accordion.accordion-success .card .card-header .btn-link {
+  color: #31ce36 !important;
+}
+.accordion.accordion-warning .card .card-header {
+  color: #ffad46;
+}
+.accordion.accordion-warning .card .card-header .btn-link {
+  color: #ffad46 !important;
+}
+.accordion.accordion-danger .card .card-header {
+  color: #f25961;
+}
+.accordion.accordion-danger .card .card-header .btn-link {
+  color: #f25961 !important;
+}
