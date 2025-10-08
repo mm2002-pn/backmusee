@@ -94,8 +94,9 @@ class PdfExcelController extends Controller
         ];
 
         // Génération des QR Codes pour chaque œuvre
-        $baseUrl = " https://6d83f6ca3e3e4cca99b70f23daa447d6-52851054f268497e8936cd731.fly.dev/qr?code=";
-
+        // $baseUrl = " https://6d83f6ca3e3e4cca99b70f23daa447d6-52851054f268497e8936cd731.fly.dev/qr?code=";
+        // https://portailmuseecivilisation.netlify.app/accueil?lang=fr
+        $baseUrl = "https://portailmuseecivilisation.netlify.app/qr?code=";
         foreach ($oeuvres as &$oeuvre) {
             $qrLink = $baseUrl . $oeuvre['qr_code'];
             $oeuvre['qr_link'] = $qrLink;
